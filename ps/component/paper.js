@@ -9,7 +9,7 @@ export var paper = {
     template: `
 	<div class="pt-container">
  	    <div>
-		  <object data="/ps/resources/psemantics_11_philquarterly.pdf" type="application/pdf" width="100%" height="100%"/>
+		  <object data="/ps/resources/psemantics_xyz.pdf" type="application/pdf" width="100%" height="100%"/>
 	    </div>
 	</div>`
 };
