@@ -1,0 +1,32 @@
+
+.jumbotron {
+    background: #FFF;
+}
+
+.navbar-default {
+    height: 6em;
+    text-align: center;
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand a{
+    color: #272;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-right: 2em;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-brand a:hover{
+    text-decoration: none;
+    /* font-style: italic; */
+}
+
+.navbar-default .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	 color: green;
+}
+

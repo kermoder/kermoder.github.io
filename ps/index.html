@@ -1,0 +1,31 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <title>Ptruth</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap-theme.min.css"/>
+  <link rel="stylesheet" href="./css/overrides.css"/>
+  <link rel="stylesheet" href="./css/ptruth.css"/>
+  <link href="css/styles.css" rel="stylesheet" type="text/css"></link>
+  <link rel="icon" href="img/1x/baseline_360_black_18dp.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div id="app">
+    <ptr-header></ptr-header>
+    <main>
+	  <router-view></router-view>
+    </main>
+    <ptr-footer></ptr-footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script type="module">
+  	  import { ptr } from './js/init.js'
+  	  ptr.init();
+  </script>
+</body>
+</html>

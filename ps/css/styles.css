@@ -1,0 +1,13 @@
+
+.headerbar {
+    background: #6A6;
+    color: #DDD;
+}
+
+body {
+     overflow-y: hidden;
+}
+
+main {
+     overflow-y: hidden;
+}
