@@ -18,7 +18,7 @@ export var what = {
 					It takes as its starting point Wittgenstein\'s insistence on the obvious fact that explanations come to an end, at which point there is just what one is inclined to do or say. The theory shows that the concepts of semantics can be fully reconstructed from this basis, complete with a robust and stable distinction between what is right and what merely seems to be, if only one rejects certain commonplace assumptions.
 				</p>
 				<p style="color:red">
-					model, truth, meaning. Explanatory inversion, reconception of justification and norms of speech and logic.
+					<!-- model, truth, meaning. Explanatory inversion, reconception of justification and norms of speech and logic. -->
 				</p>
 			</div>
 		</section>

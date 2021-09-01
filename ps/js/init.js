@@ -3,6 +3,7 @@ import { ptrFooter } from '../component/footer.js';
 import { cheatSheet} from '../component/cheatSheet.js';
 import { paper }     from '../component/paper.js';
 import { home }      from '../component/home.js';
+import { youtube }   from '../component/youtube.js';
 import { why }       from '../component/why.js';
 import { what }      from '../component/what.js';
 import { who }       from '../component/who.js';
@@ -19,6 +20,9 @@ const routes = [
     },
     { path: "/paper", 
       component: paper
+    },
+    { path: "/youtube", 
+      component: youtube
     },
     { path: "/why", 
       component: why
