@@ -49,13 +49,13 @@ ptr.init = function(){
       	},
       	components: {
       	    'ptr-header': ptrHeader,
-	    'home' : home,
-	    'why'  : why,
-	    'what' : what,
-	    'who'  : who,
-	    'cheatSheet' : cheatSheet,
-	    'paper': paper,
-	    'definition' : definition,
+			'home' : home,
+			'why'  : why,
+			'what' : what,
+			'who'  : who,
+			'cheatSheet' : cheatSheet,
+			'paper': paper,
+			'definition' : definition,
       	    'ptr-footer': ptrFooter
       	},
       	create : function() {
