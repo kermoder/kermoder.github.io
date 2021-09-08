@@ -14,6 +14,16 @@ main {
 	height: 100%;
 }
 
+header .container {
+	width: 80%;
+}
+
+footer {
+	height: 4em;
+	background: orange;
+	width: 100%;
+}
+
 #app {
 	height: 100vh;
 }
@@ -26,10 +36,10 @@ main {
 .pt-container {
 	margin-left: auto;
     margin-right: auto;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-left: 15vw;
+    padding-right: 15vw;
 	width: 100%;
-	height: 100%;
+	height: 80vh;
 }
 
 .pt-container-small {

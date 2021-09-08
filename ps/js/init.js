@@ -2,6 +2,7 @@ import { ptrHeader } from '../component/header.js';
 import { ptrFooter } from '../component/footer.js';
 import { cheatSheet} from '../component/cheatSheet.js';
 import { paper }     from '../component/paper.js';
+import { slogans }   from '../component/slogans.js';
 import { home }      from '../component/home.js';
 import { youtube }   from '../component/youtube.js';
 import { why }       from '../component/why.js';
@@ -23,6 +24,9 @@ const routes = [
     },
     { path: "/youtube", 
       component: youtube
+    },
+    { path: "/slogans", 
+      component: slogans
     },
     { path: "/why", 
       component: why
