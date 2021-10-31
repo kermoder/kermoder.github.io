@@ -5,7 +5,7 @@ export var ptrFooter = {
 		}
     },
     template: `
-		<footer>
+		<footer class="fixed-bottom">
 			<p class="text-muted">{{text}}</p>
 		</footer>`
 };
