@@ -1,0 +1,3 @@
+[submodule "psemantics/themes/FeelIt"]
+	path = psemantics/themes/FeelIt
+	url = https://github.com/khusika/FeelIt.git

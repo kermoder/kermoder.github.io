@@ -14,21 +14,21 @@ export var ptrHeader = {
     },
     template: `
 		<header>
-			<nav class="navbar navbar-default navbar-expand-lg navbar-fixed-top">
+            <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top bg-dark">
 				<div class="container">
 					<div class="navbar-header">
 						<div class="navbar-brand">
 							<a data-toggle="tab" v-on:click="go('/')" id="nav_home">Ptruth</a>
 						</div>
 					</div>
-					<button class="navbar-toggler" type="button" 
-							data-toggle="collapse" 
-							data-target="#navbarNav" 
-							aria-controls="navbarNav" 
-							aria-expanded="false" aria-label="Toggle navigation">
+					<!-- <button class="navbar-toggler" type="button" 
+							   data-toggle="collapse" 
+							   data-target="#navbarNav" 
+							   aria-controls="navbarNav" 
+							   aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div id="navbar" class="navbar-collapse collapse">
+					</button> -->
+					<div id="navbarNav" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
 							<li><a v-on:click="go('cheatSheet')" id="nav_cheat">As a cheat sheet</a></li>
 							<li><a v-on:click="go('youtube')" id="nav_theYoutubeChannel">As Youtube videos</a></li>
@@ -43,5 +43,5 @@ export var ptrHeader = {
 					</div><!--/.nav-collapse -->
 				</div>
 			</nav>
-		</header>`
+    	</header>`
 };
