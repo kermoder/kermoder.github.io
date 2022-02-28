@@ -14,6 +14,32 @@ export var ptrHeader = {
     },
     template: `
 		<header>
+		<div class="nav">
+		  <div class="left"></div>
+		  <div class="title">
+			<div>Mind: the gap</div>
+		  </div>
+		  <div class="middle">
+			<ul>
+			  <li><a v-on:click="go('cheatSheet')" id="nav_cheat">As a cheat sheet</a></li>
+			  <li><a href="" id="nav_theYoutubeChannel">As Youtube videos</a></li>
+			  <li><a href="" id="nav_thePaper">As a paper</a></li>
+			</ul>
+		  </div>
+		  <div class="mundane">
+			<ul>
+			  <li><a id="nav_what" href="" >What</a></li>
+			  <li><a id="nav_why" href="" >Why</a></li>
+			  <li><a id="nav_who" href="" >Who</a></li>
+			</ul>
+		  </div>
+		  <div class="right"></div>
+		</div>
+    	</header>`
+};
+
+/*
+
             <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top bg-dark">
 				<div class="container">
 					<div class="navbar-header">
@@ -43,5 +69,7 @@ export var ptrHeader = {
 					</div><!--/.nav-collapse -->
 				</div>
 			</nav>
-    	</header>`
-};
+
+
+
+*/
