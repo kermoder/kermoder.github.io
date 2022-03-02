@@ -99,6 +99,11 @@ pdf-viewer {
 	margin-bottom: 1em;
 }
 
+#walnut {
+	height: 70px;
+	width: auto;
+}
+
 .heading1 {
 	font-style: italic;
 	font-size: 1.1em;

@@ -36,8 +36,7 @@ const routes = [
     },
     { path: "/who", 
       component: who
-    },
-
+    }
 ];
 
 var router = new VueRouter({
