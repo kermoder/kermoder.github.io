@@ -21,16 +21,16 @@
 		  </div>
 		  <div class="middle">
 			<ul>
-			  <li><a v-on:click="go('cheatSheet')" id="nav_cheat">As a cheat sheet</a></li>
-			  <li><a href="" id="nav_theYoutubeChannel">As Youtube videos</a></li>
-			  <li><a href="" id="nav_thePaper">As a paper</a></li>
+			  <li><a v-on:click="go('cheatSheet')" id="nav_cheat">As cheat sheets</a></li>
+			  <!-- <li><a v-on:click="go('paper')" id="nav_thePaper">As a paper</a></li> -->
 			</ul>
 		  </div>
 		  <div class="mundane">
 			<ul>
-			  <li><a id="nav_what" href="" >What</a></li>
-			  <li><a id="nav_why" href="" >Why</a></li>
-			  <li><a id="nav_who" href="" >Who</a></li>
+			  <li><a id="nav_what" v-on:click="go('where')" href="" >Where</a></li>
+			  <li><a id="nav_what" v-on:click="go('what')"  href="" >What</a></li>
+			  <li><a id="nav_why"  v-on:click="go('why')"   href="" >Why</a></li>
+			  <li><a id="nav_who"  v-on:click="go('who')"   href="" >Who</a></li>
 			</ul>
 		  </div>
 		  <div class="right"></div>

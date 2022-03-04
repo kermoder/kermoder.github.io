@@ -63,10 +63,10 @@ div.nav li {
 	padding-right: 2em;
 }
 div.nav > .middle{
-	width:55%;
+	width:50%;
 }
 div.nav > .mundane{
-	width:15%;
+	width:20%;
 }
 div.nav > .right{
 	width:5%;
@@ -77,4 +77,12 @@ main {
 	margin-left: auto;
 	margin-right: auto;
     height: 110vh;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.subway {
+	font-family: Lato;
 }
