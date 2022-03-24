@@ -2,11 +2,18 @@
 <html>
   <head>
 	<meta charset="utf-8"/>
-	<title>test</title>
+	<title>Mind: the gap</title>
+	<link rel="icon" href="./img/favicon.ico">
 	<link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" href="./css/styles.css"/>
 	<link rel="stylesheet" href="./css/ptruth.css"/>
+	<script>
+	  var go = function(dest) {
+	     window.location.href = "/ps/index.html#" + dest;
+	     console.log('go to',dest);
+	  };
+	</script>
   </head>
   <body>
 	<div id="app">
@@ -17,20 +24,19 @@
 			<img id="walnut" src="./img/walnut.png" />
 		  </div>
 		  <div class="title">
-			<div>Mind: the gap</div>
+			<div><a v-on:click="go('/')" id="nav_home">Mind: the gap</a></div>
 		  </div>
 		  <div class="middle">
 			<ul>
-			  <li><a v-on:click="go('cheatSheet')" id="nav_cheat">As cheat sheets</a></li>
-			  <!-- <li><a v-on:click="go('paper')" id="nav_thePaper">As a paper</a></li> -->
+			  <li><a v-on:click="go('/cheatSheet')" id="nav_cheat">In detail</a></li>
 			</ul>
 		  </div>
 		  <div class="mundane">
 			<ul>
-			  <li><a id="nav_what" v-on:click="go('where')" href="" >Where</a></li>
-			  <li><a id="nav_what" v-on:click="go('what')"  href="" >What</a></li>
-			  <li><a id="nav_why"  v-on:click="go('why')"   href="" >Why</a></li>
-			  <li><a id="nav_who"  v-on:click="go('who')"   href="" >Who</a></li>
+			  <li><a id="nav_what"   v-on:click="go('/where')" >Where</a></li>
+			  <li><a id="nav_why"    v-on:click="go('/why')"   >Why</a></li>
+			  <li><a id="nav_who"    v-on:click="go('/who')"   >Who</a></li>
+			  <li><a id="nav_really" v-on:click="go('/really')">Really?</a></li>
 			</ul>
 		  </div>
 		  <div class="right"></div>

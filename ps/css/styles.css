@@ -36,7 +36,7 @@ div.nav > .title{
 	width:10%;
 }
 div.title div {
-	margin-top: 0.7em;
+	margin-top: 0.75em;
 	margin-bottom: 1em;
 	height: 1.5em;
 	font-size: 2em;
@@ -65,6 +65,10 @@ div.nav li {
 div.nav > .middle{
 	width:50%;
 }
+div.nav > .middle li{
+	width:60%;
+	float: right;
+}
 div.nav > .mundane{
 	width:20%;
 }
@@ -76,7 +80,7 @@ main {
 	margin-top: 1em;
 	margin-left: auto;
 	margin-right: auto;
-    height: 110vh;
+    height: auto;
 }
 
 .italic {

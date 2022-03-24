@@ -1,0 +1,115 @@
+<html>
+  <head>
+	<title>test</title>
+	<style>
+	  body {
+	    margin: 0;
+	    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  }
+	  body > div {
+        overflow-y: auto;
+	  }
+	  header {
+	    position: sticky;
+	    width: 100%;
+  	    background-color: #EEE;
+	    border-color: #e7e7e7;
+        height: 5em;
+        margin-bottom: 1em;
+   	    box-shadow: 0px 3px 3px #DDD;
+	    top: 0px;
+	  }
+	  div.nav {
+	    width:100%;
+	    height: 100%;
+        font-size: 0; 
+        /* to fight the white spaces between inline-blocks - 
+           https://css-tricks.com/fighting-the-space-between-inline-block-elements*/
+	  }
+	  div.nav div {
+	    height: 100%;	   
+	    display: inline-block;
+	    margin: 0;
+	    font-size: 12px;
+	    vertical-align: bottom;
+	  }
+	  div.nav > .left{
+	    width:15%;
+	  }
+	  div.nav > .title{
+	    width:10%;
+	  }
+	  div.title div {
+	    margin-top: 0.7em;
+	    margin-bottom: 1em;
+	    height: 1.5em;
+	    font-size: 2.5em;
+	    color: #272;
+	    font-weight: bold;
+	  }
+	  div.nav div ul {
+	    margin-top: 2.5em;
+	  }
+	  div.nav a {
+	     text-decoration: none;
+	     color: #555;
+	  }
+	  div.nav a:visited {
+	     text-decoration: none;
+	     color: #555;
+	  }
+	  div.nav li {
+	    font-size: 1.2em;
+	    list-style: none;
+        float: left;
+	    padding-right: 2em;
+	  }
+	  div.nav > .middle{
+	    width:55%;
+	  }
+	  div.nav > .mundane{
+	    width:15%;
+	  }
+	  div.nav > .right{
+	    width:5%;
+	  }
+	  main {
+	     width:70%;
+	     margin-top: 1em;
+	     margin-left: auto;
+	     margin-right: auto;
+         height: 110vh;
+	  }
+
+	</style>
+  </head>
+  <body>
+	<header>
+	  <div class="nav">
+		<div class="left"></div>
+		<div class="title">
+		  <div>Psemantics</div>
+		</div>
+		<div class="middle">
+		  <ul>
+			<li><a href="file:///home/me/workspace/psite/kermoder.github.io/ps/indexs.html" id="nav_cheat">As a cheat sheet</a></li>
+			<li><a href="" id="nav_theYoutubeChannel">As Youtube videos</a></li>
+			<li><a href="" id="nav_thePaper">As a paper</a></li>
+		  </ul>
+		</div>
+		<div class="mundane">
+		  <ul>
+			<li><a id="nav_what" href="" >What</a></li>
+			<li><a id="nav_why" href="" >Why</a></li>
+			<li><a id="nav_who" href="" >Who</a></li>
+		  </ul>
+		</div>
+		<div class="right"></div>
+	  </div>
+	</header>
+	<main>
+	  ho.
+	</main>
+
+  </body>
+</html>
