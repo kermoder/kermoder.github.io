@@ -1,18 +1,59 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+    overflow-y: scroll;
+    margin: 0;
+	height: 100vh;
+}
+
+main {
+    margin-top: 8em;
+	height: 100%;
+}
+
+header .container {
+	width: 80%;
+}
+
+footer {
+	height: 4em;
+	background: orange;
+	width: 100%;
+}
 
 #app {
 	height: 100vh;
 }
 
-.pt-container > div {
-	/* margin-top: 5em; */
-	width: 100%;
-	height:100%;
+.bottom {
+    /* background: #FDB; */
+    /* height: 100vh; */
 }
 
-.pt-container p {
-	margin-top: 0em;
-	margin-left: 2em;
-	margin-right: 2em;
+.pt-container {
+/*	margin-left: auto;
+    margin-right: auto;
+    padding-left: 15vw;
+    padding-right: 15vw;
+	width: 100%;
+	height: 80vh; */
+}
+
+.pt-container-small {
+/*	margin-left: auto;
+    margin-right: auto;
+    padding-left: 25vw;
+    padding-right: 25vw;
+	width: 100%;
+	height: 100%; */
+}
+
+.pt-container > div {
+	width: 100%;
+	height:100%;
 }
 
 #content > article {
@@ -106,26 +147,10 @@ pdf-viewer {
 	margin-bottom: 1em;
 }
 
-#walnut {
-	height: 70px;
-	width: auto;
-	float: right;
-	margin-right: 2em;
-}
-
 .heading1 {
 	font-style: italic;
 	font-size: 1.1em;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: -1em;
-}
-
-section {
-	padding-top: 2em;
-}
-
-section > div {
-	margin-left: 2em;
-	margin-right: 2em;
 }

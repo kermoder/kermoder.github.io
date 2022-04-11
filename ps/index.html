@@ -8,10 +8,10 @@
           href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" href="./css/styles.css"/>
 	<link rel="stylesheet" href="./css/ptruth.css"/>
+	<link rel="stylesheet" href="./css/blog.css"/>
 	<script>
 	  var go = function(dest) {
 	     window.location.href = "/ps/index.html#" + dest;
-	     console.log('go to',dest);
 	  };
 	</script>
   </head>
@@ -28,7 +28,7 @@
 		  </div>
 		  <div class="middle">
 			<ul>
-			  <li><a v-on:click="go('/cheatSheet')" id="nav_cheat">In detail</a></li>
+			  <li><a v-on:click="go('/detail')" id="nav_cheat">In detail</a></li>
 			</ul>
 		  </div>
 		  <div class="mundane">
@@ -43,7 +43,9 @@
 		</div>
       </header>
 	  <main> 
-		<router-view></router-view>
+		<div>
+		  <router-view></router-view>
+		</div>
 	  </main>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>

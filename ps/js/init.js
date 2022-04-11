@@ -1,6 +1,7 @@
 import { ptrHeader } from '../component/header.js';
 import { ptrFooter } from '../component/footer.js';
 import { cheatSheet} from '../component/cheatSheet.js';
+import { detail }    from '../component/detail.js';
 import { paper }     from '../component/paper.js';
 import { slogans }   from '../component/slogans.js';
 import { home }      from '../component/home.js';
@@ -18,6 +19,9 @@ const routes = [
     },
     { path: "/cheatSheet", 
       component: cheatSheet
+    },
+    { path: "/detail", 
+      component: detail
     },
     { path: "/paper", 
       component: paper
@@ -57,6 +61,7 @@ ptr.init = function(){
 			'what' : what,
 			'who'  : who,
 			'cheatSheet' : cheatSheet,
+			'detail' : detail,
 			'paper': paper,
 			'definition' : definition,
       	    'ptr-footer': ptrFooter
