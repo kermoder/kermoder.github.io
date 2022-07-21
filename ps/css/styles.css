@@ -19,8 +19,15 @@ main {
 	height: calc(100% - 5em);
 	overflow-y: auto;
 }
+
+@media (max-width: 800px) {
+	header {
+		height: 7em;
+	} 
+}
+
 main > div {
-	background:#FAFAFA;
+	/* background:#FAFAFA; */
 	width:80%;
 	/* padding: 1em; */
 	margin-left: auto;
@@ -32,7 +39,7 @@ div.nav {
 	height: 100%;
     font-size: 0; 
 /* to fight the white spaces between inline-blocks - 
-   https://css-tricks.com/fighting-the-space-between-inline-block-elements*/
+   https://css-tricks.com/fighting-the-space-between-inline-block-elements */
 }
 div.nav div {
 	height: 100%;	   
