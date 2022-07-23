@@ -1,7 +1,9 @@
 body {
 	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	font-family: "Open Sans", Arial;
 }
+
 body > div {
     overflow-y: hidden;
 }
@@ -101,4 +103,13 @@ div.nav > .right{
 
 .subway {
 	font-family: Lato;
+}
+
+.slogan {
+	font-style: italic;
+	padding: 1em;
+}
+
+.subscript {
+
 }
